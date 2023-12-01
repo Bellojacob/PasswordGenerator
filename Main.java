@@ -31,7 +31,7 @@ public class Main {
                 int lowerIndex = random.nextInt(lowercaseChars.length());
                 char randoLower = lowercaseChars.charAt(lowerIndex);
                 password.append(randoLower);
-            } else if (numberRandom > 749) {
+            } else if (numberRandom >= 750)  {
                 // Add a random uppercase character to the password
                 int upperIndex = random.nextInt(uppercaseChars.length());
                 char randoUpper = uppercaseChars.charAt(upperIndex);
